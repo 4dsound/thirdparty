@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "../../lib/Release/libvstgui_standalone.a"
+  "../../lib/Release/libvstgui_standalone.pdb"
+  "CMakeFiles/vstgui_standalone.dir/source/application.cpp.o"
+  "CMakeFiles/vstgui_standalone.dir/source/genericalertbox.cpp.o"
+  "CMakeFiles/vstgui_standalone.dir/source/helpers/value.cpp.o"
+  "CMakeFiles/vstgui_standalone.dir/source/platform/mac/VSTGUICommand.mm.o"
+  "CMakeFiles/vstgui_standalone.dir/source/platform/mac/macapplication.mm.o"
+  "CMakeFiles/vstgui_standalone.dir/source/platform/mac/macasync.mm.o"
+  "CMakeFiles/vstgui_standalone.dir/source/platform/mac/maccommondirectories.mm.o"
+  "CMakeFiles/vstgui_standalone.dir/source/platform/mac/macpreference.mm.o"
+  "CMakeFiles/vstgui_standalone.dir/source/platform/mac/macwindow.mm.o"
+  "CMakeFiles/vstgui_standalone.dir/source/shareduiresources.cpp.o"
+  "CMakeFiles/vstgui_standalone.dir/source/uidescriptionwindowcontroller.cpp.o"
+  "CMakeFiles/vstgui_standalone.dir/source/window.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vstgui_standalone.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

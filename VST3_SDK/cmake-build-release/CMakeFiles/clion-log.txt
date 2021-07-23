@@ -1,0 +1,12 @@
+/Users/macbook/Documents/Repositories/thirdparty/cmake/osx/install/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK
+-- Building with Xcode version: 9.0
+-- macOS Deployment Target: 10.10
+-- SMTG_PLUGIN_TARGET_PATH is set to : /Users/macbook/Library/Audio/Plug-ins/VST3
+-- SMTG_MYPLUGINS_SRC_PATH is set to : /Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../my_plugins
+-- VSTGUI_ROOT is set to : /Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK
+-- SMTG_AAX_SDK_PATH is not set. If you need it, please download the AAX SDK!
+-- Found rapidjson header files in /Users/macbook/Documents/Repositories/thirdparty/rapidjson/include
+* To enable building the AUv3 Wrapper example for iOS you need to set the SMTG_IOS_DEVELOPMENT_TEAM and use the Xcode generator
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="smtg_pluginterfaces"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\base\;CMake Files\pluginterfaces\;CMake Files\public.sdk\;CMake Files\public.sdk\source\;CMake Files\public.sdk\source\vst\;CMake Files\public.sdk\source\vst\interappaudio\;CMake Files\public.sdk\source\vst\auwrapper\;CMake Files\public.sdk\source\vst\auwrapper\again\;CMake Files\public.sdk\source\vst\auv3wrapper\;CMake Files\public.sdk\samples\;CMake Files\public.sdk\samples\vst\;CMake Files\public.sdk\samples\vst\InterAppAudio\;CMake Files\public.sdk\samples\vst\adelay\;CMake Files\public.sdk\samples\vst\again\;CMake Files\public.sdk\samples\vst\again_aax\;CMake Files\public.sdk\samples\vst\again_auv3\;CMake Files\public.sdk\samples\vst\channelcontext\;CMake Files\public.sdk\samples\vst\hostchecker\;CMake Files\public.sdk\samples\vst\hostchecker_aax\;CMake Files\public.sdk\samples\vst\legacymidiccout\;CMake Files\public.sdk\samples\vst\mda-vst3\;CMake Files\public.sdk\samples\vst\note_expression_synth\;CMake Files\public.sdk\samples\vst\note_expression_synth_auv3\;CMake Files\public.sdk\samples\vst\note_expression_text\;CMake Files\public.sdk\samples\vst\panner\;CMake Files\public.sdk\samples\vst\pitchnames\;CMake Files\public.sdk\samples\vst\prefetchablesupport\;CMake Files\public.sdk\samples\vst\programchange\;CMake Files\public.sdk\samples\vst\syncdelay\;CMake Files\public.sdk\samples\vst-hosting\;CMake Files\public.sdk\samples\vst-hosting\audiohost\;CMake Files\public.sdk\samples\vst-hosting\editorhost\;CMake Files\public.sdk\samples\vst-hosting\editorhost\resource\;CMake Files\public.sdk\samples\vst-hosting\validator\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\vstgui4\;CMake Files\vstgui4\vstgui\;CMake Files\vstgui4\vstgui\lib\;CMake Files\vstgui4\vstgui\uidescription\;CMake Files\vstgui4\vstgui\standalone\;CMake Files\vstgui4\vstgui\standalone\cmake\;CMake Files\vstgui4\vstgui\standalone\cmake\modules\;CMake Files\vstgui4\vstgui\tools\;CMake Files\vstgui4\vstgui\tools\imagestitcher\;CMake Files\vstgui4\vstgui\tools\imagestitcher\resource\;CMake Files\vstgui4\vstgui\tools\uidesccompressor\;CMake Files\..\;CMake Files\..\my_plugins\;CMake Files\..\my_plugins\helloworld\;CMake Files\..\my_plugins\helloworld_with_VSTGUI\;CMake Files\..\my_plugins\napplugin\;CMake Files\..\..\;CMake Files\..\..\nap\;CMake Files\..\..\nap\cmake\;CMake Files\..\..\thirdparty\;CMake Files\..\..\thirdparty\rttr\;CMake Files\..\..\thirdparty\rttr\xcode\;CMake Files\..\..\thirdparty\rttr\xcode\install\;CMake Files\..\..\thirdparty\rttr\xcode\install\cmake\;CMake Files\..\..\thirdparty\pybind11\;CMake Files\..\..\thirdparty\pybind11\install\;CMake Files\..\..\thirdparty\pybind11\install\share\;CMake Files\..\..\thirdparty\pybind11\install\share\cmake\;CMake Files\..\..\thirdparty\pybind11\install\share\cmake\pybind11\;CMake Files\cmake-build-release\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pluginterfaces">
+				<Option output="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/lib/Release/libpluginterfaces.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK"/>
+					<Add directory="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/.."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 pluginterfaces"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pluginterfaces/fast">
+				<Option output="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/lib/Release/libpluginterfaces.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK"/>
+					<Add directory="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/.."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 pluginterfaces/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/pluginterfaces/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/conststringtable.cpp">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/conststringtable.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/coreiids.cpp">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/falignpop.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/falignpush.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/fplatform.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/fstrdefs.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ftypes.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/funknown.cpp">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/funknown.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/futils.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/fvariant.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/geoconstants.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ibstream.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/icloneable.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ierrorcontext.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ipersistent.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ipluginbase.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/istringresult.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/iupdatehandler.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/keycodes.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/pluginbasefwd.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/smartpointer.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/typesizecheck.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ucolorspec.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ustring.cpp">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/base/ustring.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/gui/iplugview.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/gui/iplugviewcontentscalesupport.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstattributes.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstaudioprocessor.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstautomationstate.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstchannelcontextinfo.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstcomponent.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstcontextmenu.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivsteditcontroller.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstevents.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivsthostapplication.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstinterappaudio.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstmessage.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstmidicontrollers.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstmidilearn.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstnoteexpression.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstparameterchanges.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstparameterfunctionname.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstphysicalui.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstpluginterfacesupport.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstplugview.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstprefetchablesupport.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstprocesscontext.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstrepresentation.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/ivstunits.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/vstpresetkeys.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/vstpshpack4.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/vstspeaker.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/vst/vsttypes.h">
+			<Option target="pluginterfaces"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/pluginterfaces/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pluginterfaces\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/source/vst/interappaudio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\source\vst\interappaudio\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/source/vst/auwrapper/again/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\source\vst\auwrapper\again\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/source/vst/auv3wrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\source\vst\auv3wrapper\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/InterAppAudio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\InterAppAudio\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/adelay/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\adelay\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/again/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\again\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/again_aax/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\again_aax\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/again_auv3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\again_auv3\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/channelcontext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\channelcontext\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/hostchecker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\hostchecker\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/hostchecker_aax/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\hostchecker_aax\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\legacymidiccout\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/mda-vst3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\mda-vst3\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/note_expression_synth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\note_expression_synth\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/note_expression_synth_auv3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\note_expression_synth_auv3\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/note_expression_text/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\note_expression_text\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/panner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\panner\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/pitchnames/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\pitchnames\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/prefetchablesupport/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\prefetchablesupport\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/programchange/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\programchange\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst/syncdelay/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\syncdelay\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst-hosting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst-hosting/audiohost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\audiohost\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\editorhost\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst-hosting/editorhost/resource/Info.plist">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\editorhost\resource\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/public.sdk/samples/vst-hosting/validator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\validator\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/AAXSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/AddCommonOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/AddSMTGLibrary.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/AddSubDirectories.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/AddVST3AuV3.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/AddVST3Library.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/AddVST3Options.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/Bundle.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/CoreAudioSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/ExportedSymbols.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/Global.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/PlatformIOS.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/PlatformToolset.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/PrefixHeader.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/SMTG_DetectPlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/SMTG_Platform_Windows.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/SMTG_VST3_SDK.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/SetupVST3LibraryDefaultPath.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/UniversalBinary.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake/modules/VstGuiSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\lib\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/uidescription/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\uidescription\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/standalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\standalone\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/standalone/cmake/modules/vstgui_add_executable.cmake">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\standalone\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\tools\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/tools/imagestitcher/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\tools\imagestitcher\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/tools/imagestitcher/resource/Info.plist">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\tools\imagestitcher\resource\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/vstgui4/vstgui/tools/uidesccompressor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\tools\uidesccompressor\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../my_plugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\my_plugins\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../my_plugins/helloworld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\my_plugins\helloworld\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../my_plugins/helloworld_with_VSTGUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\my_plugins\helloworld_with_VSTGUI\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../my_plugins/napplugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\my_plugins\napplugin\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../nap/cmake/Findglm.cmake">
+			<Option virtualFolder="CMake Files\..\..\nap\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../nap/cmake/Findlibmpg123.cmake">
+			<Option virtualFolder="CMake Files\..\..\nap\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../nap/cmake/Findlibsndfile.cmake">
+			<Option virtualFolder="CMake Files\..\..\nap\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../nap/cmake/Findmoodycamel.cmake">
+			<Option virtualFolder="CMake Files\..\..\nap\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../nap/cmake/Findrapidjson.cmake">
+			<Option virtualFolder="CMake Files\..\..\nap\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../nap/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\nap\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../nap/cmake/targetarch.cmake">
+			<Option virtualFolder="CMake Files\..\..\nap\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/rttr/xcode/install/cmake/rttr-config-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\rttr\xcode\install\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/rttr/xcode/install/cmake/rttr-config-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\rttr\xcode\install\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/rttr/xcode/install/cmake/rttr-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\rttr\xcode\install\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/rttr/xcode/install/cmake/rttr-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\rttr\xcode\install\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/pybind11/install/share/cmake/pybind11/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\pybind11\install\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/pybind11/install/share/cmake/pybind11/pybind11Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\pybind11\install\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/pybind11/install/share/cmake/pybind11/pybind11ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\pybind11\install\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/pybind11/install/share/cmake/pybind11/pybind11Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\pybind11\install\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/../../thirdparty/pybind11/install/share/cmake/pybind11/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\..\..\thirdparty\pybind11\install\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/Documents/Repositories/VST_SDK_NAP/VST3_SDK/cmake-build-release/arch.c">
+			<Option virtualFolder="CMake Files\cmake-build-release\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
