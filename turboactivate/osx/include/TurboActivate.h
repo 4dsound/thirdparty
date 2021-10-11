@@ -473,10 +473,14 @@ TURBOACTIVATE_API HRESULT TA_CC TA_IsGenuine(uint32_t handle);
    Returns: TA_OK or TA_E_FEATURES_CHANGED on success. Handle TA_E_INET and TA_E_INET_DELAYED as warnings that
             you should let the end user know about.
 
+            If an "TA_E_INET_TIMEOUT" or "TA_E_INET_TLS" error happens, TA_E_INET will be returned instead
+            as a more "catch-all" inernet failure. This is the only TurboActivate function that will
+            return the more "general error" rather than a specific error. We do this for backwards
+            compatibility with existing programs.
+
             Handle all other return codes as failures.
 
-   Possible return codes: TA_OK, TA_FAIL, TA_E_ACTIVATE, TA_E_INET, TA_E_INET_TIMEOUT,
-                          TA_E_INET_TLS, TA_E_INET_DELAYED, TA_E_INVALID_HANDLE,
+   Possible return codes: TA_OK, TA_FAIL, TA_E_ACTIVATE, TA_E_INET, TA_E_INET_DELAYED, TA_E_INVALID_HANDLE,
                           TA_E_COM, TA_E_EXPIRED, TA_E_REVOKED, TA_E_INVALID_ARGS,
                           TA_E_INVALID_FLAGS, TA_E_IN_VM, TA_E_FEATURES_CHANGED,
                           TA_E_ANDROID_NOT_INIT, TA_E_ENABLE_NETWORK_ADAPTERS
@@ -740,6 +744,18 @@ TURBOACTIVATE_API HRESULT TA_CC TA_PDetsFromByteArray(const uint8_t * byteArr, s
    Possible return codes: TA_OK, TA_FAIL, TA_E_INVALID_HANDLE
 */
 TURBOACTIVATE_API HRESULT TA_CC TA_SetCustomActDataPath(uint32_t handle, STRCTYPE directory);
+
+
+/*
+   You should call this before your application exits. This frees up any
+   allocated memory for all open handles.
+
+
+   Returns: TA_OK on success. Handle all other return codes as failures.
+
+   Possible return codes: TA_OK, TA_FAIL
+*/
+TURBOACTIVATE_API HRESULT TA_CC TA_Cleanup(void);
 
 
 /* Flags for the TA_IsDateValid() function. */
