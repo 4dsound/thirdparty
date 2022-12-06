@@ -6,6 +6,7 @@ rapidjson/thirdparty/
 *.o
 rttr/macos/*
 !rttr/macos/x86_64
+!rttr/macos/arm64
 rttr/msvc/*
 !rttr/msvc/x86_64
 rttr/linux/*
